@@ -1,13 +1,13 @@
 {
-  "name": "ion2-calendar",
+  "name": "ion3-calendar",
   "version": "2.2.0",
-  "description": "A date picker component for ionic2 ",
+  "description": "A date picker component for ionic3",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
     "start": "cd ./dev && ionic serve",
     "clean:dist": "rm -rf dist",
-    "demo:link": "npm link && cd ./demo && npm link ion2-calendar",
+    "demo:link": "npm link && cd ./demo && npm link ion3-calendar",
     "demo:serve": "cd ./demo && ionic serve",
     "build": "run-s clean:dist build:copy-sources build:ts && gulp copy-scss ",
     "build:ts": "tsc && ngc",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HsuanXyz/ion2-calendar.git"
+    "url": "https://github.com/sonicwong/ion3-calendar.git"
   },
   "devDependencies": {
     "@angular/common": "4.4.6",
