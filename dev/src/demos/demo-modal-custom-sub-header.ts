@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ModalController } from 'ionic-angular';
 import {
   CalendarModalOptions,
-} from '../ion2-calendar'
+} from '../ion3-calendar'
 import { SubHeaderCalendarModal } from './sub-header-calendar-modal';
 
 @Component({

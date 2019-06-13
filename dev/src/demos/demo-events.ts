@@ -3,7 +3,7 @@ import { ToastController } from 'ionic-angular';
 
 import {
   CalendarComponentOptions
-} from '../ion2-calendar'
+} from '../ion3-calendar'
 
 @Component({
   selector: 'demo-events',

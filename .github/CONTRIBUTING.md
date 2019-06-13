@@ -16,7 +16,7 @@ Thanks for your interest in contributing
 ### Modifying Components
 
 1. Run `npm start`
-2. Create or modify in the `dev/src/ion2-calendar/`
+2. Create or modify in the `dev/src/ion3-calendar/`
 
 ### Adding Demos
 

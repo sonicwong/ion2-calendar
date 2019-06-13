@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, ModalController } from 'ionic-angular';
-import { CalendarModal, CalendarModalOptions } from "ion2-calendar";
+import { CalendarModal, CalendarModalOptions } from "ion3-calendar";
 
 /**
  * Generated class for the ModalModePage page.

@@ -1,4 +1,4 @@
-import { CalendarModule } from 'ion2-calendar'
+import { CalendarModule } from 'ion3-calendar'
 
 import { NgModule } from '@angular/core';
 import { DemoModalBasicComponent } from './demo-modal-basic';

@@ -1,19 +1,19 @@
-# 📅 ion2-calendar
+# 📅 ion3-calendar
 
-[![Build Status](https://travis-ci.org/HsuanXyz/ion2-calendar.svg?branch=master)](https://travis-ci.org/HsuanXyz/ion2-calendar)
-[![Dependency Status](https://david-dm.org/HsuanXyz/ion2-calendar.svg)](https://david-dm.org/HsuanXyz/ion2-calendar)
+[![Build Status](https://travis-ci.org/HsuanXyz/ion3-calendar.svg?branch=master)](https://travis-ci.org/HsuanXyz/ion3-calendar)
+[![Dependency Status](https://david-dm.org/HsuanXyz/ion3-calendar.svg)](https://david-dm.org/HsuanXyz/ion3-calendar)
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 [![MIT License][license-image]][license-url]
 
 
-![date](https://github.com/HsuanXyz/hsuanxyz.github.io/blob/master/assets/ion2-calendar/calendar.png?raw=true)
+![date](https://github.com/HsuanXyz/hsuanxyz.github.io/blob/master/assets/ion3-calendar/calendar.png?raw=true)
 <p align="center">
-    <img width="800" src="https://github.com/HsuanXyz/hsuanxyz.github.io/blob/master/assets/ion2-calendar/calendar-1.png?raw=true">
+    <img width="800" src="https://github.com/HsuanXyz/hsuanxyz.github.io/blob/master/assets/ion3-calendar/calendar-1.png?raw=true">
 </p>
 
 > English is not my native language; please excuse typing errors.
-[中文文档](https://github.com/HsuanXyz/ion2-calendar/blob/master/README-CN.md)
+[中文文档](https://github.com/HsuanXyz/ion3-calendar/blob/master/README-CN.md)
 
 - Support date range.
 - Support multi date.
@@ -28,11 +28,11 @@
 - ionic-angular `^3.0.0`
 
 # Demo
-live demo [click me](https://hsuanxyz.github.io/demo/ion2-calendar/).
+live demo [click me](https://hsuanxyz.github.io/demo/ion3-calendar/).
 
 # Usage
 ### Installation
-`$ npm install ion2-calendar moment --save`
+`$ npm install ion3-calendar moment --save`
 
 ### Import module
 
@@ -41,7 +41,7 @@ import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 ...
-import { CalendarModule } from "ion2-calendar";
+import { CalendarModule } from "ion3-calendar";
 
 @NgModule({
   declarations: [
@@ -104,7 +104,7 @@ export class HomePage {
 
 ```typescript
 import { Component } from '@angular/core';
-import { CalendarComponentOptions } from 'ion2-calendar'
+import { CalendarComponentOptions } from 'ion3-calendar'
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -132,7 +132,7 @@ export class HomePage {
 
 ```typescript
 import { Component } from '@angular/core';
-import { CalendarComponentOptions } from 'ion2-calendar'
+import { CalendarComponentOptions } from 'ion3-calendar'
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -188,12 +188,12 @@ export class HomePage {
 
 ### Basic
 
-Import ion2-calendar in component controller.
+Import ion3-calendar in component controller.
 
 ```typescript
 import { Component } from '@angular/core';
 import { ModalController } from 'ionic-angular';
-import { CalendarModal, CalendarModalOptions, DayConfig, CalendarResult } from "ion2-calendar";
+import { CalendarModal, CalendarModalOptions, DayConfig, CalendarResult } from "ion3-calendar";
 
 @Component({
   selector: 'page-home',
@@ -233,13 +233,13 @@ Set pickMode to 'range'.
           pickMode: 'range',
           title: 'RANGE'
         };
-    
+
         let myCalendar = this.modalCtrl.create(CalendarModal, {
           options: options
         });
-    
+
         myCalendar.present();
-    
+
         myCalendar.onDidDismiss((date: { from: CalendarResult; to: CalendarResult }, type: string) => {
           console.log(date);
         });
@@ -256,13 +256,13 @@ Set pickMode to 'multi'.
           pickMode: 'multi',
           title: 'MULTI'
         };
-    
+
         let myCalendar =  this.modalCtrl.create(CalendarModal, {
           options: options
         });
-    
+
         myCalendar.present();
-    
+
         myCalendar.onDidDismiss((date: CalendarResult[], type: string) => {
           console.log(date);
         })
@@ -428,11 +428,11 @@ openCalendar() {
 
 ## Thanks for reading
 
-[npm-url]: https://www.npmjs.com/package/ion2-calendar
-[npm-image]: https://img.shields.io/npm/v/ion2-calendar.svg
+[npm-url]: https://www.npmjs.com/package/ion3-calendar
+[npm-image]: https://img.shields.io/npm/v/ion3-calendar.svg
 
-[downloads-image]: https://img.shields.io/npm/dm/ion2-calendar.svg
-[downloads-url]: http://badge.fury.io/js/ion2-calendar
+[downloads-image]: https://img.shields.io/npm/dm/ion3-calendar.svg
+[downloads-url]: http://badge.fury.io/js/ion3-calendar
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE

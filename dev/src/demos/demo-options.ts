@@ -3,7 +3,7 @@ import { ModalController } from 'ionic-angular';
 
 import {
   CalendarComponentOptions
-} from '../ion2-calendar'
+} from '../ion3-calendar'
 
 @Component({
   selector: 'demo-options',
@@ -23,7 +23,7 @@ import {
       </ion-item>
       <ion-item>
         <ion-label>disableWeeks</ion-label>
-        <ion-select [(ngModel)]="_disableWeeks" 
+        <ion-select [(ngModel)]="_disableWeeks"
                     (ngModelChange)="_changeDisableWeeks($event)"
                     multiple="true">
           <ion-option value="0">0</ion-option>

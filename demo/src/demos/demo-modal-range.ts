@@ -4,7 +4,7 @@ import { ModalController } from 'ionic-angular';
 import {
   CalendarModal,
   CalendarModalOptions
-} from 'ion2-calendar'
+} from 'ion3-calendar'
 
 @Component({
   selector: 'demo-modal-range',

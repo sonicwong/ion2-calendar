@@ -5,7 +5,7 @@ import {
   CalendarModal,
   CalendarModalOptions,
   DayConfig
-} from 'ion2-calendar'
+} from 'ion3-calendar'
 
 @Component({
   selector: 'demo-modal-config-days',

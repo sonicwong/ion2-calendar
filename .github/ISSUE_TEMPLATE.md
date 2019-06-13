@@ -4,7 +4,7 @@
 [ ] **3.x**
 [ ] **4.x**
 
-**Ion2-calendar mode:**  (check one with "x")
+**ion3-calendar mode:**  (check one with "x")
 [ ] components mode
 [ ] modal mode
 
@@ -35,4 +35,3 @@ insert short code snippets here
 ```
 insert the output from ionic info here
 ```
-
